@@ -1,0 +1,13 @@
+.Bibi {
+    position: absolute;
+    top: -40px;
+    left: 0px;
+    animation-name: drive;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+}
+@keyframes drive {
+    from {transform: translateX (100px)} 
+    to {transform: translateX (700px)}
+}
